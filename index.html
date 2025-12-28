@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div
+        class="mobil bg-[#22b3c1] md:hidden lg:hidden xl:hidden 2xl:hidden flex justify-between items-center p-6"
+      >
+        <div class="logo">
+          <img src="img/logo.png" class="object-cover" />
+        </div>
+        <div class="bars">
+          <i class="fa-solid fa-bars text-2xl text-white"></i>
+        </div>
+      </div>
+      <div
+        class="desktop pl-24 pr-24 bg-[#22b3c1] md:flex lg:flex xl:flex hidden p-6 items-center justify-between"
+      >
+        <div class="logo">
+          <img src="img/logo.png" class="object-cover" alt="" />
+        </div>
+        <div class="menu">
+          <ul
+            class="flex justify-between items-center gap-10 text-white text-[1em]"
+          >
+            <li><a class="hover:text-black" href="">Home</a></li>
+            <li><a class="hover:text-black" href="">About</a></li>
+            <li><a class="hover:text-black" href="">Deals</a></li>
+            <li><a class="hover:text-black" href="">Reservation</a></li>
+            <li><a class="hover:text-black" href="">Book Yours</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="slider-container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">
+              <div class="content">
+                <p
+                  class="flex justify-center items-center text-3xl font-bold pt-35 text-white sm:hidden"
+                >
+                  Bizim üçün hər yer Gəncədi!
+                </p>
+                <p
+                  class="flex justify-center items-center text-3xl font-bold pt-35 text-black"
+                >
+                  Bizim üçün hər yer Gəncədi!
+                </p>
+                <h1
+                  class="flex justify-center items-center text-6xl font-bold text-white sm:hidden"
+                >
+                  Gəncə
+                </h1>
+                <h1
+                  class="flex justify-center items-center text-6xl font-bold text-black"
+                >
+                  Gəncə
+                </h1>
+                <button
+                  class="text-white hover:scale-150 hover:text-green-600 hover:bg-black bg-amber-600 px-6 py-3 ml-168 mt-7 sm:hidden lg:block md:block xl:block 2xl:block"
+                >
+                  Qadan Alim
+                </button>
+              </div>
+            </div>
+            <div class="swiper-slide slide2">
+              <div class="content">
+                <p
+                  class="flex justify-center items-center text-3xl font-bold pt-35 text-white"
+                >
+                  Bizim üçün hər yer Gəncədi!
+                </p>
+                <h1
+                  class="flex justify-center items-center text-6xl font-bold text-white"
+                >
+                  Gəncə
+                </h1>
+                <button
+                  class="text-white hover:scale-150 hover:text-green-600 hover:bg-black bg-amber-600 px-6 py-3 ml-168 mt-7 sm:hidden lg:block md:block xl:block 2xl:block"
+                >
+                  Qadan Alim
+                </button>
+              </div>
+            </div>
+            <div class="swiper-slide slide3">
+              <div class="content">
+                <p
+                  class="flex justify-center items-center text-3xl font-bold pt-35 text-black"
+                >
+                  Bizim üçün hər yer Gəncədi!
+                </p>
+                <h1
+                  class="flex justify-center items-center text-6xl font-bold text-black"
+                >
+                  Gəncə
+                </h1>
+                <button
+                  class="text-white hover:scale-150 hover:text-green-600 hover:bg-black bg-amber-600 px-6 py-3 ml-168 mt-7 sm:hidden lg:block md:block xl:block 2xl:block"
+                >
+                  Qadan Alim
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!--mobil starts-->
+      <div
+        class="mobil lg:hidden xl:hidden md:hidden 2xl:hidden main-content bg-[#232223]"
+      >
+        <div class="texts py-20 px-10">
+          <p class="text-[#2a2a2a] font-bold text-4xl pb-2.5">
+            Visit Our Countries Now!
+          </p>
+          <p class="text-white text-s">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
+            illum voluptates facere veritatis dsdas ads asdasda
+          </p>
+        </div>
+        <div class="cards text-white px-20">
+          <div class="card1 h-50vh py-10 flex justify-between items-center">
+            <div class="img w-250 pr-10">
+              <img src="img/img1.jpg" alt="" />
+            </div>
+
+            <div class="context">
+              <div class="texts">
+                <p>Gence</p>
+                <p>Azerbaycan</p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime molestias in sequi! Amet, distinctio quibusdam! Dicta
+                  dolor laborum ipsam, sapiente
+                </p>
+                <hr />
+                <div class="icons flex justify-evenly items-center">
+                  <div class="icon1">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="">20 milyon</a>
+                    <p>People</p>
+                  </div>
+                  <div class="icon2">
+                    <i class="fa-solid fa-earth-africa"></i>
+                    <a href="">20 milyon m2</a>
+                    <p>People</p>
+                  </div>
+                  <div class="icon3">
+                    <i class="fa-solid fa-house"></i>
+                    <p>$20mln</p>
+                  </div>
+                </div>
+                <hr />
+                <p>Komey lazimdi agali?</p>
+              </div>
+            </div>
+            <div class="btn">
+              <button
+                class="border-4 border-amber-700 mb-50 px-4 py-2 rounded-xl"
+              >
+                Salam
+              </button>
+            </div>
+          </div>
+          <hr />
+          <div class="card1 py-10 flex justify-between items-center">
+            <div class="img w-250 pr-10">
+              <img src="img/img2.jpg" alt="" />
+            </div>
+
+            <div class="context">
+              <div class="texts">
+                <p>Gence</p>
+                <p>Azerbaycan</p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime molestias in sequi! Amet, distinctio quibusdam! Dicta
+                  dolor laborum ipsam, sapiente
+                </p>
+                <hr />
+                <div class="icons flex justify-evenly items-center">
+                  <div class="icon1">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="">20 milyon</a>
+                    <p>People</p>
+                  </div>
+                  <div class="icon2">
+                    <i class="fa-solid fa-earth-africa"></i>
+                    <a href="">20 milyon m2</a>
+                    <p>People</p>
+                  </div>
+                  <div class="icon3">
+                    <i class="fa-solid fa-house"></i>
+                    <p>$20mln</p>
+                  </div>
+                </div>
+                <hr />
+                <p>Komey lazimdi agali?</p>
+              </div>
+            </div>
+            <div class="btn">
+              <button
+                class="border-4 border-amber-700 mb-50 px-4 py-2 rounded-xl"
+              >
+                Gence
+              </button>
+            </div>
+          </div>
+          <hr />
+          <div class="card1 py-10 flex justify-between items-center">
+            <div class="img w-250 pr-10">
+              <img src="img/img3.jpg" alt="" />
+            </div>
+
+            <div class="context">
+              <div class="texts">
+                <p>Gence</p>
+                <p>Azerbaycan</p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime molestias in sequi! Amet, distinctio quibusdam! Dicta
+                  dolor laborum ipsam, sapiente
+                </p>
+                <hr />
+                <div class="icons flex justify-evenly items-center">
+                  <div class="icon1">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="">20 milyon</a>
+                    <p>People</p>
+                  </div>
+                  <div class="icon2">
+                    <i class="fa-solid fa-earth-africa"></i>
+                    <a href="">20 milyon m2</a>
+                    <p>People</p>
+                  </div>
+                  <div class="icon3">
+                    <i class="fa-solid fa-house"></i>
+                    <p>$20mln</p>
+                  </div>
+                </div>
+                <hr />
+                <p>Komey lazimdi agali?</p>
+              </div>
+            </div>
+            <div class="btn">
+              <button
+                class="border-4 border-amber-700 mb-50 px-4 py-2 rounded-xl"
+              >
+                Kepez
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="iframe flex justify-center items-center pb-10">
+          <iframe
+            class="pr-10"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.629058475539!2d49.80692581174955!3d40.37274865819569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030634e4ec45f67%3A0xa1628495e445ab6a!2sDiv%20Academy!5e0!3m2!1saz!2saz!4v1766950297781!5m2!1saz!2saz"
+            width="500"
+            height="450"
+            style="border: 2"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <!--mobil ends-->
+
+      <!--desktop starts-->
+      <div
+        class="desktop sm:hidden lg:block xl:block md:block 2xl:block main-content bg-[#232223]"
+      >
+        <!-- Header -->
+        <div class="texts py-20 px-10">
+          <p class="text-[#2a2a2a] font-bold text-4xl pb-2.5">
+            Visit Our Countries Now!
+          </p>
+          <p class="text-white text-sm max-w-xl">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
+            illum voluptates facere veritatis.
+          </p>
+        </div>
+        <div class="cards-map flex justify-between">
+          <!-- Cards -->
+          <div class="cards text-white px-20 space-y-12">
+            <!-- CARD -->
+            <div class="card flex items-center gap-x-6">
+              <!-- Image -->
+              <div class="w-64">
+                <img src="img/img1.jpg" class="w-full rounded-lg" />
+              </div>
+
+              <!-- Content -->
+              <div class="flex-1">
+                <p class="text-lg font-semibold">Gence</p>
+                <p class="text-sm text-gray-400">Azerbaycan</p>
+
+                <p class="mt-3 text-sm max-w-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime molestias in sequi! Amet distinctio quibusdam.
+                </p>
+
+                <hr class="my-4 border-gray-600" />
+
+                <div class="flex gap-x-10">
+                  <div>
+                    <i class="fa-solid fa-user"></i>
+                    <p class="text-sm">20 milyon</p>
+                    <p class="text-xs text-gray-400">People</p>
+                  </div>
+
+                  <div>
+                    <i class="fa-solid fa-earth-africa"></i>
+                    <p class="text-sm">20 milyon m²</p>
+                    <p class="text-xs text-gray-400">Area</p>
+                  </div>
+
+                  <div>
+                    <i class="fa-solid fa-house"></i>
+                    <p class="text-sm">$20mln</p>
+                  </div>
+                </div>
+
+                <hr class="my-4 border-gray-600" />
+                <p class="text-sm">Kömək lazımdı ağalı?</p>
+              </div>
+
+              <!-- Button -->
+              <div class="ml-6">
+                <button
+                  class="border-4 border-amber-700 px-4 py-2 rounded-xl hover:bg-amber-700 transition"
+                >
+                  Salam
+                </button>
+              </div>
+            </div>
+
+            <hr class="border-gray-700" />
+
+            <!-- CARD -->
+            <div class="card flex items-center gap-x-6">
+              <div class="w-64">
+                <img src="img/img2.jpg" class="w-full rounded-lg" />
+              </div>
+
+              <div class="flex-1">
+                <p class="text-lg font-semibold">Gence</p>
+                <p class="text-sm text-gray-400">Azerbaycan</p>
+
+                <p class="mt-3 text-sm max-w-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime molestias in sequi!
+                </p>
+
+                <hr class="my-4 border-gray-600" />
+
+                <div class="flex gap-x-10">
+                  <div>
+                    <i class="fa-solid fa-user"></i>
+                    <p class="text-sm">20 milyon</p>
+                    <p class="text-xs text-gray-400">People</p>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-earth-africa"></i>
+                    <p class="text-sm">20 milyon m²</p>
+                    <p class="text-xs text-gray-400">Area</p>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-house"></i>
+                    <p class="text-sm">$20mln</p>
+                  </div>
+                </div>
+
+                <hr class="my-4 border-gray-600" />
+                <p class="text-sm">Kömək lazımdı ağalı?</p>
+              </div>
+
+              <div class="ml-6">
+                <button class="border-4 border-amber-700 px-4 py-2 rounded-xl">
+                  Gence
+                </button>
+              </div>
+            </div>
+
+            <hr class="border-gray-700" />
+
+            <!-- CARD -->
+            <div class="card pb-10 flex items-center gap-x-6">
+              <div class="w-64">
+                <img src="img/img3.jpg" class="w-full rounded-lg" />
+              </div>
+
+              <div class="flex-1">
+                <p class="text-lg font-semibold">Kepez</p>
+                <p class="text-sm text-gray-400">Azerbaycan</p>
+
+                <p class="mt-3 text-sm max-w-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+
+                <hr class="my-4 border-gray-600" />
+
+                <div class="flex gap-x-10">
+                  <div>
+                    <i class="fa-solid fa-user"></i>
+                    <p class="text-sm">20 milyon</p>
+                    <p class="text-xs text-gray-400">People</p>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-earth-africa"></i>
+                    <p class="text-sm">20 milyon m²</p>
+                    <p class="text-xs text-gray-400">Area</p>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-house"></i>
+                    <p class="text-sm">$20mln</p>
+                  </div>
+                </div>
+
+                <hr class="my-4 border-gray-600" />
+                <p class="text-sm">Kömək lazımdı ağalı?</p>
+              </div>
+
+              <div class="ml-6">
+                <button class="border-4 border-amber-700 px-4 py-2 rounded-xl">
+                  Kepez
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="iframe">
+            <iframe
+              class="pr-10"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.629058475539!2d49.80692581174955!3d40.37274865819569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030634e4ec45f67%3A0xa1628495e445ab6a!2sDiv%20Academy!5e0!3m2!1saz!2saz!4v1766950297781!5m2!1saz!2saz"
+              width="400"
+              height="600"
+              style="border: 2"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <!--desktop ends-->
+    </main>
+    <footer class="bg-[#22b3c1] text-center text-white p-4">
+      <p>Copyright © 2036 Company <b>>WoOx Travel.</b>All rights reserved.</p>
+      <p>Design: <b>Murad Huseynov</b></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
